@@ -26,6 +26,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     line-height: 4em;
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
 }
 h3 {
     font-size: 4.2em;
@@ -40,4 +42,87 @@ h4 {
 h5 {
     font-size: 1.2em;
     line-height: 1em;
+}
+
+/* Navigation bar */
+.nav-bar {
+    background-color: rgb(25, 33, 41)
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+.nav-bar ul {
+    list-style: none;
+}
+
+/* Header */
+.header {
+    background: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg) 0 0 no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 650px;
+}
+.quote {
+    font-size: 2.5em;
+}
+
+/* Section 1: General information*/
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+.text {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+.link-btn {
+    background-color:rgb(67, 163, 230) ;
+    color: white;
+    font-family: 'Roboto Condensed', Tahoma, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Section 2: Day structure */
+.service-box {
+    font-size: 1.7em;
+    text-align: center;
+}
+.service-box img {
+    width: 125px;
+}
+
+/* Section 3: About the team */
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 1.9em;
+}
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+.footer a {
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+.footer ul {
+    list-style: none;
 }
